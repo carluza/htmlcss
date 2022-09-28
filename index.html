@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de gatos</title>
+</head>
+<body>
+    <h2>App de gatos</h2>
+    <main>
+        <h3>Imagenes de gatos</h3>
+        <p>Haz click aqui para ver mas 
+            <a href="https://www.freepik.es/fotos-vectores-gratis/gatos" target="_blank" rel="noopener noreferrer">imagenes de gatos</a>
+        </p>
+        <br>
+        <p>Haz click en la imagen del gato para escuchar exitos de la musica</p>
+    <a href="https://www.youtube.com/watch?v=UjoMnnp4_bg" target="_blank">
+        <img src="img/gato en caja.webp" class="imagen-de-gatos" alt="gato naranja"></a>
+        <hr>
+        <h3>listas de gatos</h3>
+    <div>
+            <p>cosas que <strong>aman</strong> los gatos:</p>
+        <ul>
+            <li>churu</li>
+            <li>arena</li>
+            <li>menta</li>
+        </ul>
+        <p>coasa que los gatos <strong>odian</strong>:</p>
+        <ol>
+            <li>perros</li>
+            <li>agua</li>
+            <li>tratamientos</li>
+        </ol>
+    </div>
+        <img src="img/gato.jpeg" class="imagen-de-gatos" alt="">
+
+        <p>Tu gato prefiere estar en:</p>        
+        <form action="">
+            <label for="exterior">
+                <input id="exterior" type="radio" name="interior-exterior" value="exterior">exterior
+            </label>
+            <br>
+            <label for="interior">
+                <input id="interior" type="radio" name="interior-exterior" value="interior">interior
+            </label>
+            <br>
+            <label for="cualquiera">
+                <input id="cualquiera" type="radio" name="interior-exterior" checked value="cualquiera">cualquiera
+            </label>
+            <br>
+            <br>
+            <!--casillas de verificacion-->
+            <label for="carinoso"><input type="checkbox" id="carinoso" name="personalidad" value="carinoso">cariñoso
+            </label>
+            <br>
+            <label for="perezoso">
+                <input type="checkbox" id="perezoso" name="personalidad" value="perezoso">perezoso
+            </label>
+            <br>
+            <label for="energico">
+                <input type="checkbox" id="energico" name="personalidad" value="energico">energico
+            </label>
+            <br>
+            <label for="normal">
+                <input type="checkbox" id="normal" name="personalidad" checked value="normal">normal</label>
+                <!--URL para foto de tu gato-->
+            <br>
+            <input type="text" placeholder="URL foto de tu gato" required>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+
+    </main>
+    <footer>
+        <small>
+        <p>sin derechos de autor por carlos vivanco sanchez <a target="_blank" href="https://www.google.com/webhp?hl=es-419&sa=X&ved=0ahUKEwjhhrWjwrD6AhXIJrkGHUOfAXUQPAgI">direccion de nuestra organizacion</a></p>
+        </small>
+    </footer>
+</body>
+</html>
